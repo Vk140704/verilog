@@ -1,0 +1,5 @@
+module halfsubtract(input a,b,dif,brw);
+xor(dif,a,b);
+and(brw,~a,b);
+endmodule 
+:
