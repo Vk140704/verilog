@@ -1,4 +1,4 @@
-module b_g_tb();                          
+module g_b_tb();                          
 reg[3:0]in;                               
 wire[3:0] outb,outg;                      
 bi_gr uut1(.b(in),.g(outg));              
