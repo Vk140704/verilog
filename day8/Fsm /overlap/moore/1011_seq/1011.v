@@ -17,7 +17,7 @@ module seq_1011 (input clk,rst,x,output reg z);
       B: next_state = (x==0) ? C : B;
       C: next_state = (x==0) ? A : D;
       D: next_state = (x==0) ? A : E;
-      E: next_state = (x==0) ? A : B;
+      E: next_state = (x==0) ? D : B;
       // Overlapping: 10 remains for next sequence
       default : next_state=A;
     endcase
